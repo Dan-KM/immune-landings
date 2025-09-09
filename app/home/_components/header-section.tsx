@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 
-import Logo from '../assets/logo.png'
+import Logo from '@/app/home/assets/logo.png';
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
