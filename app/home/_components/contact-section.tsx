@@ -24,7 +24,7 @@ const ContactUs = () => {
     // Format the message for WhatsApp
     const whatsappMessage = `Hello, my name is ${formData.name}. \n ${formData.message}`;
     const encodedMessage = encodeURIComponent(whatsappMessage);
-    const phoneNumber = "254708546502";
+    const phoneNumber = "254700000000";
 
     // Redirect to WhatsApp with the message
     window.open(
